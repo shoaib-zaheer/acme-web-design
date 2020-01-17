@@ -9,6 +9,10 @@ REPO fore week1-assiment
 > 4. Adding pictures in IMG folders pluse adding them in indes.html.
 5. Updated Ccs file for Index.html page.
 > 6. About, Services empty pages are created, about page codes are updated & further more some bugs are fixed in my codes.
+
     * Index.Html
     * Style.Css (for Index.Html)
-    
+7. Updated codes for Service page both in 
+
+    * Services.Html
+    * style.Css
