@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
-    line-height:1,5;
+    line-height:1.5;
     padding: 0;
     margin: 0;
     background-color:#f4f4f4;
@@ -12,7 +12,7 @@ body{
     margin: auto;
     overflow: hidden;
 }
-header ul{
+ul{
     margin: 0;
     padding: 0;
 }
@@ -24,11 +24,21 @@ header ul{
     padding-right: 20px;
     color: #ffffff;
 }
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Header*/
 header{
     background: #35424a;
     color: #ffffff;
     padding-top:30px;
-    min-height: 70%;
+    min-height: 70px;
     border-bottom: #e8491d 3px solid;
 }
 header a{
@@ -88,7 +98,7 @@ header a:hover{
     float: right;
     margin-top: 15px;
 }
-#newsletter form[type="email"]{
+#newsletter input[type="email"]{
     padding: 4px;
     height: 25px;
     width: 250px;
@@ -107,9 +117,20 @@ header a:hover{
 #boxes .box img{
     width: 90px;
 }
+/*Sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+/*Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
 footer{
     padding: 20px;
-    margin-top: 350px;
+    margin-top: 380px;
     color: #ffffff;
     background-color: #e8491d;
     text-align: center;
